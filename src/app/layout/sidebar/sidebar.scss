@@ -1,0 +1,35 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  background: #172235;
+  padding: 1.5rem 1rem;
+  min-height: 100%;
+}
+
+.sidebar-heading {
+  color: #8492a6;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+  padding-left: 0.75rem;
+}
+
+.nav-link {
+  color: #c5ceda;
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  margin-bottom: 0.25rem;
+
+  &:hover,
+  &.active {
+    color: white;
+    background: #30435e;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 180px;
+  }
+}
